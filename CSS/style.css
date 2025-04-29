@@ -1,0 +1,131 @@
+body{
+    background-color: #2b3988;
+    text-align: center;
+}
+.titulo{
+    color: #FFFF00;
+}
+h2{
+    color:#FFFF00;
+    align-self: flex-start;
+    align-items: center;
+    text-align: center;
+    margin: 0%;
+    
+}
+.titulo-condicionales{
+    background-color: black;
+    margin: 0%;
+    border-radius: 10px 10px 0px 0px;
+}
+.condicionales{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.condicion{
+    
+    background: linear-gradient(90deg, rgba(242, 31, 31, 1) 0%, rgba(217, 24, 117, 1) 26%, rgba(0, 94, 235, 1) 100%);
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgba(5, 248, 5, 0.815);
+    margin: 0%;
+    
+    
+    
+}
+
+.h1_condicionales{
+    font-weight: bolder;
+    color: white;
+    margin-top: 75px;
+}
+#btnParImpar{
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    
+}
+#btnMayorEdad{
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+}
+#btnPositivoNegativo{
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+}
+#btnCreacionJS{
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+}
+#btnTablaMultiplicar{
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+}
+#btnContarUnoDiez{
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+}
+#btnMeses{
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+}
+#btnDias{
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+}
+.modal{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: grey;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgb(230, 241, 68);
+    max-width: 90%;
+}
+.cerrar{
+    background-color: rgb(245, 34, 34);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#verificar{
+    background-color: #FFFF00;
+    color: red;
+    padding: 8px 8px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#respuesta{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.activarModal{
+    display: block;
+}
