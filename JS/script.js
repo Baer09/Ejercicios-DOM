@@ -1,3 +1,4 @@
+//
 // constantes modal
 const modal = document.getElementById("modal");
 const tituloModal = document.getElementById("tituloModal");
